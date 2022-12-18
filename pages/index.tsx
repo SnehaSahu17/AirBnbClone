@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Header from "../components/Header";
 import Banner from "../components/Banner";
+import Largecard from "../components/Largecard";
 
 export default function Home() {
   const links = [
@@ -136,6 +137,9 @@ export default function Home() {
           </div>
 
         </section>
+        
+        <Largecard/>
+        
       </main>
     </div>
   );
