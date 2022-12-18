@@ -10,7 +10,7 @@ function Header() {
   return (
     <div className='sticky top-0 z-50 grid grid-cols-3 bg-black shadow-slate-800 shadow-sm p-5 md:px-10'>
 
-        <div className='relative flex items-center h-10 cursor pointer my-auto'>
+        <div className='relative flex items-center h-10 cursor pointer my-auto cursor-pointer'>
             <Image src="https://links.papareact.com/qd3" alt='airbnb-logo' width={150} height={500}/>
         </div>
 
