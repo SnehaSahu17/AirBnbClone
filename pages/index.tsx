@@ -3,6 +3,7 @@ import Image from "next/image";
 import Header from "../components/Header";
 import Banner from "../components/Banner";
 import Largecard from "../components/Largecard";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const links = [
@@ -139,6 +140,7 @@ export default function Home() {
         </section>
         
         <Largecard/>
+        <Footer/>
         
       </main>
     </div>
