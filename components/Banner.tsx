@@ -1,10 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import banner from './images/banner.png'
 
 function Banner() {
   return (
     <div className='relative h-[300px] sm:h-[400px] md:h-[420px] lg:h-[450px] xl:h-[500px] 2xl:h-[600px]'>
-        <Image src='https://links.papareact.com/0fm' alt='banner-image' layout='fill'
+        <Image src={banner} alt='banner-image' layout='fill'
         objectFit='cover' />
 
         <div className='absolute top-1/2 text-center w-full text-black'>

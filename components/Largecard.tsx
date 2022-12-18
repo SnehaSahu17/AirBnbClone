@@ -1,11 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
+import largecardimage from './images/largecard.png'
 
 function largecard() {
   return (
     <section className='relative cursor-pointer py-16'>
         <div className='relative h-96 min-w-[300px]'>
-            <Image src="https://links.papareact.com/4cj" alt="image" layout='fill' objectFit='cover' className='rounded-2xl'/>
+            <Image src= {largecardimage} alt="image" layout='fill' objectFit='cover' className='rounded-2xl'/>
         </div>
         <div className='absolute top-32 left-12  '>
             <h3 className=' capitalize text-black text-4xl mb-3 w-64'>the greatest outdoors</h3>
