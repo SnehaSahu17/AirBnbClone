@@ -15,7 +15,7 @@ function Footer() {
         <h5 className='font-bold text-lg text-red-500'>COMMUNITY</h5>
             <p>Accessibility</p>
             <p>This is not a real website</p>
-            <p>It's a clone</p>
+            <p>It is a clone</p>
             <p>Referrals accepted</p>
             <p>Dummy project</p>
         </div>
@@ -30,7 +30,7 @@ function Footer() {
         <div className='space-y-4 text-sm mb-8'>
             <h5 className='font-bold text-lg text-red-500'>SUPPORT</h5>
             <p>Help</p>
-            <p>Trust & Security</p>
+            <p>Trust and Security</p>
             <p>Plans</p>
             <p>AirBnb Plus</p>
             <p>AirBnb Luxe</p>
