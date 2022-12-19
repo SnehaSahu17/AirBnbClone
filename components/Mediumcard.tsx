@@ -1,30 +1,30 @@
 import React from 'react'
 import Image from 'next/image'
-import one from './images/Mediumcard/1.png'
-import two from './images/Mediumcard/2.png'
-import three from './images/Mediumcard/3.png'
-import four from './images/Mediumcard/4.png'
+import One from './images/Mediumcard/1.png'
+import Two from './images/Mediumcard/2.png'
+import Three from './images/Mediumcard/3.png'
+import Four from './images/Mediumcard/4.png'
 
 function Mediumcard() {
     const cards = [
         {
           id:1,
-          img:one,
+          img:One,
           title:"Outdoor getaways"
         },
         { 
           id:2,
-          img:two,
+          img:Two,
           title:"Unique stays"
         },
         {
           id:3,
-          img:three,
+          img:Three,
           title:"Entire homes"
         },
         {
           id:4,
-          img:four,
+          img:Four,
           title:"Pet allowed"
         }
       ];

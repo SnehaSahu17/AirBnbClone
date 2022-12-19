@@ -1,61 +1,61 @@
 import React from 'react'
 import Image from 'next/image'
-import one from './images/smallcard /1.png'
-import two from './images/smallcard /2.png'
-import three from './images/smallcard /3.png'
-import four from './images/smallcard /4.png'
-import five from './images/smallcard /5.png'
-import six from './images/smallcard /6.png'
-import seven from './images/smallcard /7.png'
-import eight from './images/smallcard /8.png'
+import One from './images/smallcard /1.png'
+import Two from './images/smallcard /2.png'
+import Three from './images/smallcard /3.png'
+import Four from './images/smallcard /4.png'
+import Five from './images/smallcard /5.png'
+import Six from './images/smallcard /6.png'
+import Seven from './images/smallcard /7.png'
+import Eight from './images/smallcard /8.png'
 
 function Smallcard() {
     const links = [
         {
           id: 1,
-          image:one,
+          img:One,
           location: "London",
           distance: "45-minute drive",
         },
         {
           id: 2,
-          image: two,
+          img: Two,
           location: "Manchester",
           distance: "4.5-hour drive",
         },
         {
           id: 3,
-          image: three,
+          img: Three,
           location: "Liverpool",
           distance: "4.5-hour drive",
         },
         {
           id: 4,
-          image: four,
+          img: Four,
           location: "York",
           distance: "4-hour drive",
         },
         {
           id: 5,
-          image: five,
+          img: Five,
           location: "Cardiff",
           distance: "45-minute drive",
         },
         {
           id: 6,
-          image: six,
+          img: Six,
           location: "Birkenhead",
           distance: "4.5-hour drive",
         },
         {
           id: 7,
-          image:seven ,
+          img:Seven ,
           location: "Newquay",
           distance: "6-hour drive",
         },
         {
           id: 8,
-          image: eight,
+          img: Eight,
           location: "Hove",
           distance: "2-hour drive",
         },
@@ -66,14 +66,14 @@ function Smallcard() {
             Explore Nearby
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-col-3 xl:grid-cols-4">
-            {links.map(({ id, image, location, distance }) => (
+            {links.map(({ id, img, location, distance }) => (
               <div
                 key={id}
                 className="flex items-center m-2 mt-5  space-x-4 rounded-xl cursor-pointer hover:bg-gray-800 hover:scale-105 transition transform duration-200 ease-out"
               >
                 <div className="relative h-16 w-16">
                   <Image
-                    src={image}
+                    src={img}
                     alt="destination"
                     layout="fill"
                     className="rounded-lg"
