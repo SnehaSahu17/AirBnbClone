@@ -5,7 +5,7 @@ import { MagnifyingGlassIcon,
          UserCircleIcon,
          UserIcon,
          Bars3Icon } from '@heroicons/react/24/solid'
-import Logo from './images/logo.png'         
+import Logo from '../assests/images/logo.png'         
 
 function Header() {
   return (

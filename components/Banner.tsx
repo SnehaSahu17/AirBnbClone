@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Ban from './images/banner.png'
+import Ban from '../assests/images/banner.png'
 
 function Banner() {
   return (

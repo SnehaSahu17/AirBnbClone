@@ -1,13 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
-import One from './images/smallcard /1.png'
-import Two from './images/smallcard /2.png'
-import Three from './images/smallcard /3.png'
-import Four from './images/smallcard /4.png'
-import Five from './images/smallcard /5.png'
-import Six from './images/smallcard /6.png'
-import Seven from './images/smallcard /7.png'
-import Eight from './images/smallcard /8.png'
+import One from '../assests/images/smallcard /1.png'
+import Two from '../assests/images/smallcard /2.png'
+import Three from '../assests/images/smallcard /3.png'
+import Four from '../assests/images/smallcard /4.png'
+import Five from '../assests/images/smallcard /5.png'
+import Six from '../assests/images/smallcard /6.png'
+import Seven from '../assests/images/smallcard /7.png'
+import Eight from '../assests/images/smallcard /8.png'
 
 function Smallcard() {
     const links = [

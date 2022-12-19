@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import One from './images/Mediumcard/1.png'
-import Two from './images/Mediumcard/2.png'
-import Three from './images/Mediumcard/3.png'
-import Four from './images/Mediumcard/4.png'
+import One from '../assests/images/mediumcard/1.png'
+import Two from '../assests/images/mediumcard/2.png'
+import Three from '../assests/images/mediumcard/3.png'
+import Four from '../assests/images/mediumcard/4.png'
 
 function Mediumcard() {
     const cards = [

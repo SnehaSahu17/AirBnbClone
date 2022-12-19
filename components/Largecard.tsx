@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Largecardimage from './images/largecard.png'
+import Largecardimage from '../assests/images/largecard.png'
 
 function largecard() {
   return (
