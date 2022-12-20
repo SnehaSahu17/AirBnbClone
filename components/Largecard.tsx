@@ -4,7 +4,7 @@ import Largecardimage from '../assests/images/largecard.png'
 
 function largecard() {
   return (
-    <section className='relative cursor-pointer py-16'>
+    <section className='relative cursor-pointer py-16 '>
         <div className='relative h-96 min-w-[300px]'>
             <Image src= {Largecardimage} alt="image" layout='fill' objectFit='cover' className='rounded-2xl'/>
         </div>

@@ -31,7 +31,7 @@ function Mediumcard() {
       
   return (
     
-    <section>
+    <section >
           <h2 className="text-4xl font-semibold py-8 text-red-500">Live Anywhere</h2>
 
           <div className="flex space-x-4 overflow-scroll scrollbar-hide p-3 -ml-3">

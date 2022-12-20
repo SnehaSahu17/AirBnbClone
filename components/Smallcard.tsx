@@ -61,7 +61,7 @@ function Smallcard() {
         },
       ];
   return (
-    <section className="pt-6">
+    <section className="pt-6 ">
           <h2 className="text-4xl font-semibold pb-5 text-red-500">
             Explore Nearby
           </h2>
