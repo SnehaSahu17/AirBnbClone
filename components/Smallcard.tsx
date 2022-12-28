@@ -80,7 +80,7 @@ function Smallcard() {
                   ></Image>
                 </div>
                 <div>
-                  <h2>{location}</h2>
+                  <h2 className='text-gray-500'>{location}</h2>
                   <h3 className="text-gray-300">{distance}</h3>
                 </div>
               </div>
