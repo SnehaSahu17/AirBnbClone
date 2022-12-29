@@ -34,11 +34,12 @@ function Header({ placeholder }: {
   const router = useRouter();
   const search = () => {
     router.push ({
-      pathname: "\search",
+
+      pathname: "/search",
       query: {
         location:searchInput,
-        startDate: startDate.toISOString(),
-        endDate: endDate.toISOString(),
+        startDate: new Date (startDate).getTime(),
+        endDate: new Date (endDate).getTime(),
         noOfGuests,
       },
     });
