@@ -31,10 +31,9 @@ function Header({ placeholder }: {
       endDate : endDate,
       key:'Selection'
   }
-  const router = useRouter();
+  const Router = useRouter();
   const search = () => {
-    router.push ({
-
+    Router.push ({
       pathname: "/search",
       query: {
         location:searchInput,
@@ -47,7 +46,7 @@ function Header({ placeholder }: {
   return (
     <div className='sticky top-0 z-50 grid grid-cols-3 bg-black shadow-slate-800 shadow-sm p-5 md:px-10'>
 
-        <div onClick={() => router.push("/")} className=' relative flex items-center h-10 cursor pointer my-auto cursor-pointer'>
+        <div onClick={() => Router.push("/")} className=' relative flex items-center h-10 cursor pointer my-auto cursor-pointer'>
             <Image src={Logo} alt='airbnb-logo' width={150} height={500}/>
         </div>
 
@@ -65,7 +64,7 @@ function Header({ placeholder }: {
 
           <div className='flex items-center space-x-1 border-2 p-2 rounded-full border-red-500'>
             <Bars3Icon className='h-6'/>
-            <UserCircleIcon className='h-6'/>
+            <UserCircleIcon className='h-6'/> 
           </div>
 
         </div>
