@@ -11,7 +11,7 @@ export const dateTostring = (un: any) => {
   return dt.toLocaleString();
 };
 
-function search() {
+function Search() {
   
   const Router = useRouter();
   const { location, startDate, endDate, noOfGuests } = Router.query;
@@ -76,5 +76,5 @@ function search() {
   );
 }
 
-export default search;
+export default Search;
 
