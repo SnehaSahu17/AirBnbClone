@@ -62,9 +62,9 @@ function Header({ placeholder }: {
           <p className='hidden md:inline-flex cursor-pointer'>Become a Host</p>
           <GlobeAltIcon className='h-6 cursor-pointer'/>
 
-          <div className='flex items-center space-x-1 border-2 p-2 rounded-full border-red-500'>
-            <Bars3Icon className='h-6'/>
-            <UserCircleIcon className='h-6'/> 
+          <div className='flex items-center space-x-1 border-2 p-2 rounded-full border-red-500 '>
+            <Bars3Icon className='h-6 cursor-pointer hover:scale-105 '/>
+            <UserCircleIcon className='h-6 cursor-pointer hover:scale-105'/> 
           </div>
 
         </div>
