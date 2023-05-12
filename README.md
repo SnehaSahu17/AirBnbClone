@@ -17,7 +17,7 @@ website features a modern and intuitive design, with easy-to-use navigation.</p>
 <h3 align='center'>Home Page 🏡</h3>
 
 <div align='center'>
-<img src='https://res.cloudinary.com/dkqxnquga/image/upload/v1683873321/Screenshot_2023-05-12_at_12.03.45_PM_njzshk.png'/>
+<img src='https://res.cloudinary.com/dkqxnquga/image/upload/v1683873318/Screenshot_2023-05-12_at_12.04.05_PM_lgpbkn.png'/>
 </div>
 <div align='center'>
 <img src='https://res.cloudinary.com/dkqxnquga/image/upload/v1683873312/Screenshot_2023-05-12_at_12.03.58_PM_t3e21e.png'/>
